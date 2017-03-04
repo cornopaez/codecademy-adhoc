@@ -21,6 +21,12 @@ nav .container-fluid img {
 	padding-top: 15px;
 }
 
+@media only screen and (max-width: 767px) {
+	nav .container-fluid img {
+		display: none;
+	}
+}
+
 nav .container-fluid ul > li > a {
 	font-family: "Roboto";
 	font-size: 0.875rem;
@@ -34,4 +40,43 @@ nav .container-fluid ul > li > a:hover {
 
 nav .container-fluid ul > li > a.active {
 	color: #37c2aa;
+}
+
+/*Jumbotron
+-----------------------------------------------*/
+
+.jumbotron {
+	margin-top: 3.125rem;
+	margin-bottom: 0;
+	height: 43.5rem;
+	background: url("../images/jumbotron.png") no-repeat center;
+	position: relative;
+}
+
+.jumbotron .container {
+	width: 53.125rem;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+
+.jumbotron .container h1 {
+	margin: 0;
+	font-family: "Arbutus Slab";
+	font-size: 3.75rem;
+	color: white;
+	background: #d404af;
+	text-align: center;
+}
+
+.jumbotron .container p {
+	font-family: "Roboto";
+	font-size: 1.25rem;
+	background: #f5cb07;
+	height: 3rem;
+	color: #4a4a4a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
