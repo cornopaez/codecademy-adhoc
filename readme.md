@@ -1,4 +1,4 @@
 Contents
 --------
 
-This repo contains Cocecademy's "Adhoc" website for the Freelance Web Developer Program
+This repo contains Codecademy's "Adhoc" website for the Freelance Web Developer Program
