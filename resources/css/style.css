@@ -105,3 +105,26 @@ nav .container-fluid ul > li > a.active {
 	font-style: italic;
 	line-height: 1.4;
 }
+
+/*Quotation
+-----------------------------------------------*/
+
+.whyadhoc .container-fluid {
+	border-top: 1px solid #d4d5d6;
+	margin: 0 2rem;
+}
+
+.whyadhoc .container-fluid .row .title {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: translate(0%, -50%);
+}
+
+.whyadhoc .container-fluid .row .title span {
+	font-family: "Arbutus Slab";
+	font-size: 3rem;
+	display: inline-flex;
+	background: white;
+	padding: 0 1.25rem;
+}
