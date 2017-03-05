@@ -21,12 +21,6 @@ nav .container-fluid img {
 	padding-top: 15px;
 }
 
-@media only screen and (max-width: 767px) {
-	nav .container-fluid img {
-		display: none;
-	}
-}
-
 nav .container-fluid ul > li > a {
 	font-family: "Roboto";
 	font-size: 0.875rem;
@@ -42,6 +36,14 @@ nav .container-fluid ul > li > a.active {
 	color: #37c2aa;
 }
 
+/*Responsive Queries*/
+
+@media only screen and (max-width: 767px) {
+	nav .container-fluid img {
+		display: none;
+	}
+}
+
 /*Jumbotron
 -----------------------------------------------*/
 
@@ -54,11 +56,8 @@ nav .container-fluid ul > li > a.active {
 }
 
 .jumbotron .container-fluid {
-	width: 53.125rem;
-	position: absolute;
-	top: 50%;
-	right: 50%;
-	transform: translate(50%, -50%);
+	max-width: 53.125rem;
+	margin-top: 17rem;
 }
 
 .jumbotron .container-fluid h1 {
@@ -79,6 +78,28 @@ nav .container-fluid ul > li > a.active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px) {
+	.jumbotron {
+		margin-top: 10.9375rem;
+		height: 33.5rem;
+		position: relative;
+	}
+
+	.jumbotron .container-fluid {
+		margin-top: 10rem;
+	}
+
+	.jumbotron .container-fluid h1 {
+		font-size: 2.75rem;
+	}
+
+	.jumbotron .container-fluid p {
+		font-size: 1rem;
+	}
 }
 
 /*Quotation
@@ -107,6 +128,17 @@ nav .container-fluid ul > li > a.active {
 	font-size: 0.875rem;
 	font-style: italic;
 	line-height: 1.4;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px) {
+
+	.quotation .container-fluid {
+		width: 83%;
+		padding-top: 4rem;
+		padding-bottom: 5.25rem;
+	}
 }
 
 /*Why Adhoc?
@@ -145,8 +177,33 @@ nav .container-fluid ul > li > a.active {
 	padding: 0 1.25rem;
 }
 
+.whyadhoc .container-fluid .row .images {
+	text-align: center;
+}
+
 .whyadhoc .container-fluid .row .images img {
-	width: 100%;
+	max-width: 100%;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px) {
+
+	.whyadhoc .container-fluid .row:first-child {
+		top: 1.25rem;
+	}
+
+	.whyadhoc .container-fluid .row .title span {
+		font-size: 2rem;
+	}
+
+	.whyadhoc .container-fluid .row .images {
+		padding-bottom: 3rem;
+	}
+
+	.whyadhoc .container-fluid .row .images:last-child {
+		padding-bottom: 0;
+	}
 }
 
 /*Team
@@ -156,6 +213,7 @@ nav .container-fluid ul > li > a.active {
 	background: #4a4a4a;
 	padding-top: 5.5rem;
 	padding-bottom: 7.25rem;
+	text-align: center;
 }
 
 .team .container-fluid .row .title {
@@ -166,22 +224,30 @@ nav .container-fluid ul > li > a.active {
 	margin-bottom: 3.375rem;
 }
 
-.team .container-fluid .images {
+.team .container-fluid .images img {
+	max-width: 100%;
 	margin-bottom: 2rem;
 }
 
-.team .container-fluid .images img {
-	width: 100%;
-}
-
-.team .container-fluid .titles p {
+.team .container-fluid .images p {
 	color: white;
-	text-align: center;
 }
 
-.team .container-fluid .titles p:first-child {
+.team .container-fluid .images .name{
 	margin: 0;
 	font-weight: bold;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px) {
+	.team .container-fluid .images .cell {
+		margin-bottom: 2rem;
+	}
+
+	.team .container-fluid .images .cell:last-child {
+		margin-bottom: 0;
+	}
 }
 
 /*Clients
@@ -231,6 +297,22 @@ nav .container-fluid ul > li > a.active {
 .clients .container-fluid .logos .images img {
 	max-width: 100%;
 	height: auto;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 767px) {
+	.clients .container-fluid .title .col-xs-12 span {
+		font-size: 2rem;
+	}
+
+	.clients .container-fluid .logos .images {
+		padding-bottom: 3rem;
+	}
+
+	.clients .container-fluid .logos .images:last-child {
+		padding-bottom: 0;
+	}
 }
 
 /*Footer
