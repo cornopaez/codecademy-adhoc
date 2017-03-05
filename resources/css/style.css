@@ -83,6 +83,9 @@ nav .container-fluid ul > li > a.active {
 
 /*Quotation
 -----------------------------------------------*/
+.quotation {
+	margin-bottom: -2rem;
+}
 
 .quotation .container-fluid {
 	width: 83%;
@@ -106,19 +109,38 @@ nav .container-fluid ul > li > a.active {
 	line-height: 1.4;
 }
 
-/*Quotation
+/*Why Adhoc?
 -----------------------------------------------*/
 
-.whyadhoc .container-fluid {
-	border-top: 1px solid #d4d5d6;
+.whyadhoc {
+	position: relative;
+	/*border-top: 1px solid #d4d5d6;*/
 	margin: 0 2rem;
 }
 
-.whyadhoc .container-fluid .row .title {
+/*.whyadhoc .container-fluid {
 	position: relative;
+	top: -2rem;
+}*/
+
+.whyadhoc .container-fluid .row:first-child {
+	border-top: 1px solid #d4d5d6;
+	position: absolute;
+	width: 100%;
+	top: 2rem;
+}
+
+.whyadhoc .container-fluid .row:nth-child(2) {
+	margin-bottom: 2.25rem;
+}
+
+.whyadhoc .container-fluid .row:last-child {
+	margin-bottom: 3rem;
+}
+
+.whyadhoc .container-fluid .row .title {
 	display: flex;
 	justify-content: center;
-	transform: translate(0%, -50%);
 }
 
 .whyadhoc .container-fluid .row .title span {
@@ -127,4 +149,8 @@ nav .container-fluid ul > li > a.active {
 	display: inline-flex;
 	background: white;
 	padding: 0 1.25rem;
+}
+
+.whyadhoc .container-fluid .row .images img {
+	width: 100%;
 }
