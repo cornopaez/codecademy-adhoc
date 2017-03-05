@@ -232,3 +232,31 @@ nav .container-fluid ul > li > a.active {
 	max-width: 100%;
 	height: auto;
 }
+
+/*Footer
+-----------------------------------------------*/
+
+footer {
+	background: #e9ebeb;
+}
+
+footer .container-fluid .social-media .icons,
+footer .container-fluid .copyright .text {
+	display: flex;
+	justify-content: center;
+}
+
+footer .container-fluid .social-media .icons {
+	margin: 2.625rem 0 1.5rem 0;
+	color: #337AB7;
+}
+
+footer .container-fluid .social-media .icons i {
+	padding-right: 0.25rem;
+}
+
+footer .container-fluid .copyright .text {
+	margin-bottom: 2rem;
+	font-size: 0.75rem;
+	color: #212123;
+}
