@@ -99,6 +99,7 @@ nav .container-fluid ul > li > a.active {
 
 	.jumbotron .container-fluid p {
 		font-size: 1rem;
+		text-align: center;
 	}
 }
 
