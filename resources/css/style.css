@@ -183,3 +183,52 @@ nav .container-fluid ul > li > a.active {
 	margin: 0;
 	font-weight: bold;
 }
+
+/*Clients
+-----------------------------------------------*/
+
+.clients .container-fluid {
+	position: relative;
+	margin: 0 2rem;
+}
+
+.clients .container-fluid .row:nth-child(2) {
+	border-top: 1px solid #d4d5d6;
+	width: 100%;
+	margin-top: 5.25rem;
+	margin-bottom: 5.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clients .container-fluid .title {
+	position: absolute;
+	top: 3rem;
+	width: 100%;
+}
+
+.clients .container-fluid .title .col-xs-12 {
+	display: flex;
+	justify-content: center;
+}
+
+.clients .container-fluid .title .col-xs-12 span {
+	font-family: "Arbutus Slab";
+	font-size: 3rem;
+	display: inline-flex;
+	background: white;
+	padding: 0 1.25rem;
+}
+
+.clients .container-fluid .logos {
+	margin-bottom: 5rem;
+}
+
+.clients .container-fluid .logos .images {
+	text-align: center;
+}
+
+.clients .container-fluid .logos .images img {
+	max-width: 100%;
+	height: auto;
+}
