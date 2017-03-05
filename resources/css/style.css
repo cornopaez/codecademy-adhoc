@@ -114,14 +114,8 @@ nav .container-fluid ul > li > a.active {
 
 .whyadhoc {
 	position: relative;
-	/*border-top: 1px solid #d4d5d6;*/
 	margin: 0 2rem;
 }
-
-/*.whyadhoc .container-fluid {
-	position: relative;
-	top: -2rem;
-}*/
 
 .whyadhoc .container-fluid .row:first-child {
 	border-top: 1px solid #d4d5d6;
@@ -153,4 +147,39 @@ nav .container-fluid ul > li > a.active {
 
 .whyadhoc .container-fluid .row .images img {
 	width: 100%;
+}
+
+/*Team
+-----------------------------------------------*/
+
+.team {
+	background: #4a4a4a;
+	padding-top: 5.5rem;
+	padding-bottom: 7.25rem;
+}
+
+.team .container-fluid .row .title {
+	font-family: "Arbutus Slab";
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	margin-bottom: 3.375rem;
+}
+
+.team .container-fluid .images {
+	margin-bottom: 2rem;
+}
+
+.team .container-fluid .images img {
+	width: 100%;
+}
+
+.team .container-fluid .titles p {
+	color: white;
+	text-align: center;
+}
+
+.team .container-fluid .titles p:first-child {
+	margin: 0;
+	font-weight: bold;
 }
