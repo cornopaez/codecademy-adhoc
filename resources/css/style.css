@@ -53,7 +53,7 @@ nav .container-fluid ul > li > a.active {
 	position: relative;
 }
 
-.jumbotron .container {
+.jumbotron .container-fluid {
 	width: 53.125rem;
 	position: absolute;
 	top: 50%;
@@ -61,7 +61,7 @@ nav .container-fluid ul > li > a.active {
 	transform: translate(50%, -50%);
 }
 
-.jumbotron .container h1 {
+.jumbotron .container-fluid h1 {
 	margin: 0;
 	font-family: "Arbutus Slab";
 	font-size: 3.75rem;
@@ -70,7 +70,7 @@ nav .container-fluid ul > li > a.active {
 	text-align: center;
 }
 
-.jumbotron .container p {
+.jumbotron .container-fluid p {
 	font-family: "Roboto";
 	font-size: 1.25rem;
 	background: #f5cb07;
